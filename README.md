@@ -6,6 +6,10 @@ Sie stellt, wie auch die Elementgruppe, ein Inhaltselement für verschachtelte E
 
 Es wird in der Erweiterung **kein CSS** für das Grid im Frontend und Backend mitgeliefert. Hier kann auf eine eigene Lösung oder eine Framework-Lösung zurückgegriffen werden.
 
+![grid_container_edit](https://github.com/user-attachments/assets/798bc38d-7428-4318-8a22-d789a85c8a17)
+
+![grid_container_list](https://github.com/user-attachments/assets/1fec7366-fa0a-4b3e-bb7f-db05ae5e1015)
+
 ## Konfiguration
 
 Die zur Auswahl stehenden Klassen können in der Datei `config/config.yaml` konfiguriert werden:
