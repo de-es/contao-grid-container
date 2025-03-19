@@ -1,0 +1,8 @@
+CTE:
+    grid_container:
+        - Grid-Container
+        - Erzeugt eine Elementgruppe zur Positionierung von Elementen im Grid.
+tl_content:
+    gridClass:
+        - Grid
+        - Hier können Sie das Grid für den Container auswählen.

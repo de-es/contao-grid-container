@@ -1,0 +1,18 @@
+{% extends "@Contao/content_element/_base.html.twig" %}
+
+{% set attributes = attrs()
+    .addClass('grid')
+    .addClass(grid_class)
+    .mergeWith(attributes|default)
+%}
+
+{% block content %}
+    {% if as_editor_view %}
+        <div class="cte_grid_class">
+            {{ grid_class|trans({}, 'grid_container') }}
+        </div>
+    {% endif %}
+    {% for fragment in nested_fragments %}
+        {{ content_element(fragment) }}
+    {% endfor %}
+{% endblock %}

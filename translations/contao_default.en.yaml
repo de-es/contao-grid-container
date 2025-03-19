@@ -1,0 +1,8 @@
+CTE:
+    grid_container:
+        - Grid container
+        - Generates an element group for positioning elements within the grid.
+tl_content:
+    gridClass:
+        - Grid
+        - Here you can select the the grid of the container.

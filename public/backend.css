@@ -1,0 +1,31 @@
+:root {
+    --grid-table-header: #dbefff;
+    --grid-text: #669fcb;
+}
+
+html[data-color-scheme="dark"] {
+    --grid-table-header: #b5c5d2;
+}
+
+.as-grid .tl_content:has(.content-grid-container) {
+    .tl_content_right,
+    .cte_type {
+        background-color: var(--grid-table-header);
+    }
+}
+
+.as-grid .cte_preview:has(.content-grid-container) {
+    padding-bottom: 10px;
+}
+
+.content-grid-container > :not(:first-child) {
+    border: 1px solid var(--border);
+    padding: 10px 10px 6px;
+    margin-top: 10px;
+}
+
+.content-grid-container .cte_grid_class {
+    display: block;
+    font-weight: bold;
+    color: var(--grid-text);
+}
